@@ -7,6 +7,7 @@ on:
 
 env:
   DIFY_TOKENS: ${{ secrets.DIFY_TOKENS }}
+  DIFY_INPUTS: ${{ secrets.DIFY_INPUTS }}
 
 jobs:
   DifyWorkflow:
